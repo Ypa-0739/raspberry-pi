@@ -1,0 +1,10 @@
+{
+  "port": "/dev/serial/by-id/替换为你的CP2102或FT232设备名",
+  "baudrate": 115200,
+  "read_timeout_seconds": 0.05,
+  "command_timeout_seconds": 0.5,
+  "reconnect_interval_seconds": 1.0,
+  "heartbeat_interval_seconds": 0.1,
+  "communication_watchdog_seconds": 0.3
+}
+

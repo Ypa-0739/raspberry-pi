@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "调试机器人状态机",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "robot_runtime",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "--simulate",
+                "--auto-start",
+                "--exit-on-terminal"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
